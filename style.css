@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: rgb(137, 0, 0);
+    width: 100%;
+    height: 70px;
+    padding: 0 20px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgb(120, 106, 14);
+    width: 100%;
+    height: 70px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: rgb(153, 148, 148);
+}
+
+.blast-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.blast-logo h2 {
+    cursor: default;
+}
+
+#logo {
+    padding-left: 20px;
+    height: 50px;
+}
+
+body {
+    background-image: linear-gradient(180deg, rgb(137, 0, 0), rgb(120, 106, 14));
+}
+
+.s1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 5%;
+    color: antiquewhite;
+    position: relative;
+}
+
+.jiha-lisra {
+    padding-left: 40px;
+}
+
+
+.s1 h1 {
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+.s1 p {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.box {
+    padding: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn:hover {
+    background-color: darkorange;
+    color: black;
+    border-radius: 5px;
+}
+
+#somedishes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px 5%;
+    gap: 20px;
+}
+
+#somedishes div {
+    max-width: 22%;
+    height: 500px;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    position: relative;
+}
+
+#somedishes h1 {
+    font-size: 34px;
+    margin-bottom: 15px;
+}
+
+#somedishes p {
+    color: gray;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#somedishes img {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+}
+
+.btn2 {
+    display: block;
+    margin: 40px auto;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.btn2:hover {
+    background-color: darkorange;
+    color: black;
+}
+
+#about h1,p{
+    color: #fff;
+    margin-inline: 30px;
+}
+
+#about p{
+    padding: 15px;
+}
+
+#about h1{
+    font-size: 40px;
+}
+
+#contact{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: rgb(116, 17, 17);
+    border-radius: 40px;
+    margin-inline: 20px;
+    padding: 20px;
+}
+
+#contact h1{
+    color: #fff;
+    margin-inline: 30px;
+    font-size: 40px;
+}
+
+#contact table{
+    color: #fff;
+    margin-inline: 70px;
+    width: 80%;
+}
+
+#contact input{
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+}
+
+#contact textarea{
+    width: 100%;
+    height: 8vh;
+}
+
+td{
+    padding: 10px;
+}
+
+#contact .envoyer{
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    background-color: orange;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+#contact .envoyer:hover{
+    background-color: darkorange;
+    color: black;
+    border-radius: 5px;
+}
+
+#sdtitle{
+    color: #fff;
+    margin-inline: 30px;
+    font-size: 40px;
+}
+
+
